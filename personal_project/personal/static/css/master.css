@@ -1,0 +1,58 @@
+body,h1,h2{
+  font-family: "Snap ITC", fantasy;
+
+}
+h1,h2{
+  color:#313030;
+}
+.sincere{
+  margin-top:200px;
+}
+.dropdown-menu-center {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+.dropdown:hover .dropdown-menu {
+    display: inline-block;
+    margin-top: 0;  //remove the gap so it doesn't close
+ }
+ .topology{
+   margin-top:200px;
+ }
+ .btn .caret {
+    position: relative;
+    float:right;
+    top:10px;
+
+  }
+.button1{
+  float:left;
+  margin-left:100px;
+  width:70px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #D8D4D2;
+  color:#2148E6;
+  border-radius: 25px 25px 25px 25px;
+}
+.button2{
+  text-align:left;
+  text-decoration: none;
+  width: 300px;
+  font-size: 17px;
+  background-color: #D8D4D2;
+  color:#2148E6;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.button3{
+  float:right;
+  margin-right:100px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #D8D4D2;
+  color:#2148E6;
+  border-radius: 25px 25px 25px 25px;
+}

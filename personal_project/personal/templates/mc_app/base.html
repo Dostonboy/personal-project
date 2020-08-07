@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title>Jackson Tourism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{% static "css/master.css" %}"/>
+  </head>
+  <body>
+    <h2 style="text-align:center">Jackson Tourism Adventure</h2>
+    <h1 style="text-align:center">Welcome to Tanzania Home of Tourism</h1>
+    <div class="sincere">
+      <div class="dropdown text-center">
+        <button class="btn btn-primary dropdown-toggle button button2" type="button" data-toggle="dropdown">Where To Visit?
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-center">
+          <li><a href="#">Kilimanjaro</a></li>
+          <li><a href="#">Arusha</a></li>
+          <li><a href="#">Dar-Es Salaam</a></li>
+          <li><a href="#">Zanzibar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="topology">
+      <div class="">
+        <a href="{% url 'about' %}" class="w3-btn button1">About</a>
+      </div>
+      <div class="">
+        <a href="{% url 'email' %}" class="w3-btn button3">Contact Us</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static 'js/master.js' %}"></script>
+  </body>
+</html>
